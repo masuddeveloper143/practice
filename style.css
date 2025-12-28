@@ -1,0 +1,40 @@
+ /* nav bar strat */
+
+
+ nav>ul {
+     display: flex;
+     justify-content: center;
+
+ }
+
+ nav li {
+     list-style: none;
+     margin: 20px;
+ }
+
+ nav li:hover {
+     background-color: rgb(210, 246, 8);
+
+ }
+
+ nav ul li a {
+     text-decoration: none;
+
+ }
+
+ /* nav bar end  */
+
+ /* table strat  */
+
+
+ td,
+ th {
+     border: 1px solid black;
+     padding: 5px 10px;
+ }
+
+ table {
+     border-collapse: collapse;
+ }
+
+ /* table end */

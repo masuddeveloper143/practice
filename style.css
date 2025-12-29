@@ -38,3 +38,21 @@
  }
 
  /* table end */
+ h1 {
+     display: flex;
+     justify-content: center;
+ }
+
+ nav li .drobdown {
+     display: none;
+     background-color: lemonchiffon;
+     padding-left: 10px;
+
+ }
+
+ nav li:hover>.drobdown {
+     display: block;
+     position: absolute;
+     /* margin-right: 50px; */
+
+ }

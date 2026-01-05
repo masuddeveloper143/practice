@@ -5,20 +5,26 @@ input:focus {
 
 .inp input {
     margin: 10px;
+    height: 20px;
+    width: 70%;
+
 }
 
 
 form {
-    height: 1000px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .inp {
-    width: 50%;
+    height: 400px;
+    width: 40%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid grey;
     border-radius: 10px;
     box-sizing: border-box;
@@ -33,4 +39,5 @@ button {
     width: 50px;
     background-color: blue;
     color: white;
+    margin: 0 auto;
 }

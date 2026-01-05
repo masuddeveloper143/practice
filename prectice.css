@@ -4,7 +4,7 @@ input:focus {
 }
 
 .inp input {
-    margin: 10px;
+    margin: 20px;
     height: 20px;
     width: 70%;
 
@@ -35,9 +35,12 @@ form {
 
 button {
 
-    height: 20px;
-    width: 50px;
+    height: 40px;
+    width: 100px;
     background-color: blue;
     color: white;
     margin: 0 auto;
+    border: none;
+    border-radius: 8%;
+    border: 1px solid salmon;
 }

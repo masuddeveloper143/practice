@@ -94,6 +94,59 @@ button {
 .position3 {
     height: 300px;
     width: 50%;
-    background-image: repeating-radial-gradient(blue, yellow 10%, green 15%);
-    border-radius: 50%;
+    background-image: repeating-radial-gradient(white, red 10%, green 15%);
+    border-radius: 40%;
+    margin: 30% auto;
+
 }
+
+.position4 {
+    height: 300px;
+    width: 50%;
+    background-image: conic-gradient(red, yellow, green, white, blue);
+}
+
+.position5 {
+    height: 300px;
+    width: 50%;
+    background-image: radial-gradient(red, green, blue);
+}
+
+.position6 {
+    height: 300px;
+    width: 50%;
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+}
+
+.position7 {
+    height: 300px;
+    width: 50%;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+.position4 {
+    height: 300px;
+    width: 50%;
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+}
+
+.position4 {
+    height: 300px;
+    width: 50%;
+    background-image: conic-gradient(red, yellow, green, white, blue);
+}
+
+.position4 {
+    height: 300px;
+    width: 50%;
+    background-image: conic-gradient(red, yellow, green, white, blue);
+}
+
+/* background-image: url('paper.gif');
+background-image: url('img_tree.gif'), url('paper.gif');
+background-image: conic-gradient(red, yellow, green);
+background-image: linear-gradient(red, yellow, blue);
+background-image: radial-gradient(red, green, blue);
+background-image: repeating-conic-gradient(red 10%, yellow 20%);
+background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */

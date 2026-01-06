@@ -191,8 +191,43 @@ background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */
 }
 
 .perent2 {
+    display: flex;
     width: 100%;
 }
+
+.bx7 {
+    width: 50%;
+}
+
+.box7 {
+    height: 300px;
+    background-color: brown;
+}
+
+.box9 {
+
+    height: 75px;
+    background-color: brown;
+}
+
+.box8 {
+    height: 150px;
+    background-color: brown;
+
+
+}
+
+.box10 {
+    width: 10%;
+    height: 75px;
+    background-color: brown;
+}
+
+.bx10 {
+    display: flex;
+    width: 50%;
+}
+
 
 @media screen and (max-width: 768px) {
 

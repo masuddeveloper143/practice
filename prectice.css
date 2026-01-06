@@ -190,6 +190,10 @@ background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */
     border-radius: 20px;
 }
 
+.perent2 {
+    width: 100%;
+}
+
 @media screen and (max-width: 768px) {
 
     .position {

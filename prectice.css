@@ -229,6 +229,7 @@ background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */
 }
 
 
+
 @media screen and (max-width: 768px) {
 
     .position {
@@ -252,4 +253,80 @@ background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */
         height: 150px;
     }
 
+}
+
+
+/* in the one box have for box oky */
+
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.x {
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ox1 {
+    background-color: red;
+    width: 40%;
+    height: 300px;
+
+}
+
+.right {
+    width: 60%;
+}
+
+.ox2 {
+    background: orange;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    display: flex;
+    gap: 10px;
+}
+
+.ox3 {
+    background: purple;
+    width: 50%;
+    height: 150px;
+
+}
+
+.ox4 {
+    background: teal;
+    width: 50%;
+    height: 150px;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        flex-direction: column;
+
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .ox1,
+    .ox2,
+    .ox3,
+    .ox4 {
+        width: 100%;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
 }

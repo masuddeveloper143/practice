@@ -308,6 +308,51 @@ background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */
 }
 
 
+
+
+
+
+
+/* responsve images part oky */
+
+.images-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.images-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.images-box2 {
+    width: 20%;
+}
+
+@media screen and (max-width: 480px) {
+
+    .images-container {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .images-container {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+/* resposive design here  */
 @media screen and (max-width: 576px) {
 
     .container {

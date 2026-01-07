@@ -335,7 +335,6 @@ background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    margin: 0;
     border: 1px solid;
 }
 
@@ -347,16 +346,28 @@ background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */
 
 }
 
-.responsive-container1-title h1,
-p {
-    display: flex;
-    text-align: left;
+.responsive-container1-title {
+    width: 80%;
+    padding-left: 10px;
+
+}
+
+.responsive-container1-title h1 {
     margin: 0;
+    padding: 0;
+}
+
+.responsive-container1-title h1,
+.responsive-container1-title p {
+    text-align: left;
     margin-bottom: 5px;
+
 }
 
 .images-box2 img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 480px) {

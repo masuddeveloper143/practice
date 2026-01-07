@@ -1,0 +1,34 @@
+.responsive-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+
+
+.images-box2 {
+    width: 20%;
+    height: 300px;
+    overflow: hidden;
+
+
+}
+
+.images-box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+.responsive-container1-p {
+    width: 70%;
+    height: 200px;
+}

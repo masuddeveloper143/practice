@@ -1,78 +1,88 @@
-.responsive-container1 {
-    display: flex;
-
-    width: 100%;
-    gap: 10px;
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+main {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    background: #f9f9f9;
+}
 
+.responsive-container1 {
+    display: flex;
+    flex-direction: column;
+    /* ডিফল্ট: মোবাইলে column */
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
 
 .images-box2 {
-    width: 50%;
-    height: 300px;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    /* ইমেজের ratio maintain */
+    /* border: 12px dotted #333; */
+    /* আপনার dotted border */
+    border-radius: 16px;
     overflow: hidden;
-
-
 }
 
 .images-box2 img {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     height: 100%;
     object-fit: cover;
-
+    display: block;
 }
 
-
-
-
-
-.responsive-container1-p {
-    width: 100%;
-    height: 200px;
-}
-
-button {
-    background-image: linear-gradient(red, rgb(3, 3, 212), #0bf10b);
-    height: 50px;
-    width: auto;
-    padding: 0 20px;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    border: 1px solid white;
-    box-shadow: 10px 10px 10px black;
-}
-
-button:hover {
-    background-image: radial-gradient(blue, orange);
-}
-
-
-
-
-@media screen and (max-width: 576px) {
+/* ডেস্কটপে (768px বা তার বেশি) পাশাপাশি করুন */
+@media (min-width: 768px) {
     .responsive-container1 {
-        flex-direction: column;
-
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
     }
 
     .images-box2 {
-        width: 100%;
-    }
-
-    .images-box2 img {
-        width: 100%;
-
+        flex: 1;
+        max-width: 50%;
     }
 
     .responsive-container1-p {
-        width: 100%;
+        flex: 1;
     }
+}
 
+.responsive-container1-p h1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
 
+.responsive-container1-p p {
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
 
+button {
+    background: linear-gradient(to right, red, blue, #0bf10b);
+    height: 50px;
+    padding: 0 30px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: radial-gradient(circle, blue, orange);
+    transform: translateY(-3px);
 }

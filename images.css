@@ -9,11 +9,19 @@ img {
     gap: 5px;
 }
 
+
+.row>div {
+    flex: 1;
+}
+
+
 .vartical-cllage img {
     height: 50%;
 
 }
 
-.row>div {
-    flex: 1;
+
+.square-cllage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }

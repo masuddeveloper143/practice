@@ -8,3 +8,10 @@ img {
     display: flex;
     gap: 5px;
 }
+
+.vartical-cllage img {
+    height: 50%;
+
+}
+
+.row>div {}

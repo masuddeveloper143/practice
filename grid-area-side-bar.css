@@ -65,7 +65,7 @@
     .container {
         grid-template-areas:
             "header   header   header"
-            "nav      nav      nav"
+            "nav      nav       nav"
             "sidebar  main     main"
             "advertise footer footer"
 

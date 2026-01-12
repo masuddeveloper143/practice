@@ -36,6 +36,7 @@
 
 .container {
     display: grid;
+    gap: 20px;
     grid-template-areas:
         "header   header   header  header"
         "nav      main     main    sidebar"

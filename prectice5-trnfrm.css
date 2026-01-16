@@ -1,3 +1,7 @@
+body{
+    margin-left: 50px;
+}
+
 .container, .inner{
     width: 200px;
     height: 200px;
@@ -11,7 +15,8 @@
 .inner{
     border: 1px solid green;
     background-color: greenyellow;
-    transform: scale(0.25, 0.5);
+    /* transform: scale(0.25, 0.5); */
+    transform: rotate(-45deg);
 
 
 

@@ -3,3 +3,7 @@
     height: 300px;
     border: 2px solid rebeccapurple;
 }
+
+#box-1{
+    overflow: hidden;
+}

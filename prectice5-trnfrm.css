@@ -19,9 +19,10 @@ body{
     /* transform: translateX(100px) rotate(45deg) scale(0.5); */
 /* transform: rotate(-45deg); */
 /* transform: scale(0.5) rotate(45deg) translateX(100px); */
+/* transform: skew(20deg); */
 }
 
 
-.inner:hover{
-transform: rotate(45deg);
-}
+/* .inner:hover{
+transform: rotate(45deg) translate(50px) scale(0.5);
+} */

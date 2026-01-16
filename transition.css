@@ -4,3 +4,7 @@
     border: 1px solid red;
     background-color: blue;
 }
+
+.box:hover{
+    width: 700px;
+}

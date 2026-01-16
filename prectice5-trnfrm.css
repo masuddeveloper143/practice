@@ -6,8 +6,13 @@
 
 .container{
     border: 1px solid red;
+    background-color: aqua;
 }
 .inner{
     border: 1px solid green;
-    
+    background-color: greenyellow;
+    transform: scale(0.5);
+
+
+
 }

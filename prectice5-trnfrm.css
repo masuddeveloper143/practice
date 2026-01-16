@@ -16,10 +16,12 @@ body{
     border: 1px solid green;
     background-color: greenyellow;
     /* transform: scale(0.25, 0.5); */
-    transform: translateX(100px);
+    /* transform: translateX(100px) rotate(45deg) scale(0.5); */
 /* transform: rotate(-45deg); */
-
 /* transform: scale(0.5) rotate(45deg) translateX(100px); */
+}
 
 
+.inner:hover{
+transform: rotate(45deg);
 }

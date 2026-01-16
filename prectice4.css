@@ -5,10 +5,14 @@
      overflow-y: auto;
 }
 
-#box-1{
+/* #box-1{
     overflow-y: scroll;
-}
+} */
 
 .ellips{
-    
+    width: 200px;
+    border: 1px solid red;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

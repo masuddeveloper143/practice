@@ -2,7 +2,7 @@
     width: 300px;
     height: 300px;
     border: 2px solid rebeccapurple;
-     overflow-y: scroll;
+     overflow-y: auto;
 }
 
 #box-1{

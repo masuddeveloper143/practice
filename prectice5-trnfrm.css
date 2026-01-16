@@ -1,3 +1,13 @@
-.container .inner{
+.container, .inner{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.container{
+    border: 1px solid red;
+}
+.inner{
+    border: 1px solid green;
     
 }

@@ -2,9 +2,12 @@
     border: 1px solid red;
 }
 
+.bat{
+    
+}
 
-.container img:hover{
-transform: rotate(-60deg);
+.container .bat:hover{
+transform: rotate(-45deg);
 transform-origin: top right;
 }
 
@@ -14,4 +17,7 @@ transform-origin: top right;
     background-color: red;
     border: 1px solid black;
     border-radius: 50%;
+    position: relative;
+    left:415px ;
+
 }

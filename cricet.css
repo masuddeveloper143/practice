@@ -24,7 +24,7 @@ transform-origin: top right;
 }
 
 .container:hover .ball{
-transform: translate(1280px, -500px) ;
+transform: translate(1280px) ;
 transform-origin: top right;
 
 

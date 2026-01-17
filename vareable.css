@@ -19,5 +19,6 @@ h5{
 .box p{
     color: var(--primary-color);
     font-size: var(--font-size);
+    width: calc(100% - 300px);
 
 }

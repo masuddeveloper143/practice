@@ -1,10 +1,11 @@
 
-@keyframes explore {
+@keyframes ping-pong {
     from{
         left: 0;
     }
+
     to{
-        left: 500px;
+        left: 400px;
     }
 }
 
@@ -21,4 +22,6 @@
     height: 100px;
     background-color: blue;
     border-radius: 50%;
+    position: relative;
+    animation: ping-pong 2s ease-in-out 1s infinite alternate;
 }

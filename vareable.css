@@ -27,7 +27,7 @@ h5{
     display:grid;
     gap: 20px;
     grid-template-rows: 500px;
-    grid-template-columns: 200px calc(100% - 200px - 20px;)
+    grid-template-columns: 200px calc(100% - 200px - 20px);
 }
 
 .content{

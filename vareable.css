@@ -22,3 +22,8 @@ h5{
     width: calc(100% - 300px);
 
 }
+
+.container{
+    display:grid;
+    gap: 5px;
+}

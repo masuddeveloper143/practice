@@ -3,7 +3,7 @@
 }
 
 .bat{
-    transition: transform 0.1s ;
+    transition: transform 0.1s ease-in 0.1s ;
 }
 
 .container:hover .bat{
@@ -19,12 +19,12 @@ transform-origin: top right;
     border-radius: 50%;
     position: relative;
     left:413px ;
-    transition: transform 1s ease-out 0.1s;
+    transition: transform 1s ease-out 0.2s;
 
 }
 
 .container:hover .ball{
-transform: translate(2000px, -300px) ;
+transform: translate(1280px, -500px) ;
 transform-origin: top right;
 
 
